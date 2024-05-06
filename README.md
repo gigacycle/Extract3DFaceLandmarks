@@ -17,7 +17,7 @@ git clone https://github.com/gigacycle/Extract3DFaceLandmarks.git
 Next, install the required dependencies using the following command:
 
 ```bash
-pip install face-alignment, torchvision, vedo`
+pip install face-alignment, torchvision, vedo
 ```
 
 ## Usage
