@@ -20,7 +20,6 @@ def calculate_2d_landmarks(img_dir, out_dir):
     else:
         dvc = 'cpu'
     try:
-        # I had a problem with 'cuda', so I changed it to 'cpu'. You can try 'cuda' or dvc if you want.
         fa = face_alignment.FaceAlignment(face_alignment.LandmarksType.TWO_D, device=dvc, flip_input=False)
         face_detector = face_detector_module.FaceDetector(device=dvc, verbose=False)
         print('Load images and corresponding landmarks ...')
