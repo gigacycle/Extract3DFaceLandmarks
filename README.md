@@ -10,17 +10,25 @@ Before utilizing this project, ensure that the facial object is aligned with the
 
 Begin by cloning the project with the following command:
 
-`git clone https://github.com/gigacycle/Extract3DFaceLandmarks.git`
+```bash
+git clone https://github.com/gigacycle/Extract3DFaceLandmarks.git
+```
 
 Next, install the required dependencies using the following command:
 
-`pip install face-alignment, torchvision, vedo`
+```bash
+pip install face-alignment, torchvision, vedo`
+```
 
 ## Usage
 
 After successfully cloning the project and installing the dependencies, Run `main.py` and follow the instructions.
 
 ![VisualzeExtractedLandmarks](https://github.com/gigacycle/Extract3DFaceLandmarks/assets/2722068/73ac0941-3b76-404a-adb1-e481b7ce8d60)
+
+1. Starts extracting 3D landmarks for ESRC dataset (stores at ./dataset/)
+2. Starts extracting your own 3D face object (it needs full path of your .obj) and displays the landmarks at the end.
+3. Displays the landmarks extracted in phase `1` (you should type the item name like the picture above)
 
 ## Acknowledgements
 
@@ -33,4 +41,4 @@ Please ensure proper citation of these projects in your work.
 
 Contributions to this project are welcomed via the submission of issues or pull requests.
 
-For inquiries or assistance, kindly contact [Your Name](insert email).
+For inquiries or assistance, kindly contact [Younes Jafari](gigacycle@gmail.com).
