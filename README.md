@@ -41,4 +41,4 @@ Please ensure proper citation of these projects in your work.
 
 Contributions to this project are welcomed via the submission of issues or pull requests.
 
-For inquiries or assistance, kindly contact [Younes Jafari](gigacycle@gmail.com).
+For inquiries or assistance, kindly contact me.
